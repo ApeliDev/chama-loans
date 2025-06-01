@@ -1,0 +1,189 @@
+
+        :root {
+            --primary-color: #6d28d9;
+            --primary-dark: #5b21b6;
+            --error-color: #dc2626;
+            --success-color: #10b981;
+            --text-color: #1f2937;
+            --light-gray: #f3f4f6;
+            --border-color: #d1d5db;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: var(--light-gray);
+            color: var(--text-color);
+            line-height: 1.6;
+        }
+
+        .juliet-container {
+            max-width: 500px;
+            margin: 2rem auto;
+            padding: 2rem;
+            background: white;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .juliet-logo {
+            text-align: center;
+            margin-bottom: 1.5rem;
+        }
+
+        .juliet-logo img {
+            height: 50px;
+        }
+
+        .juliet-signup-form h2 {
+            text-align: center;
+            margin-bottom: 1.5rem;
+            color: var(--primary-color);
+        }
+
+        .juliet-form-group {
+            margin-bottom: 1.25rem;
+        }
+
+        .juliet-form-group label {
+            display: block;
+            margin-bottom: 0.5rem;
+            font-weight: 500;
+        }
+
+        .juliet-form-group input {
+            width: 100%;
+            padding: 0.75rem;
+            border: 1px solid var(--border-color);
+            border-radius: 5px;
+            font-size: 1rem;
+            transition: border-color 0.3s;
+        }
+
+        .juliet-form-group input:focus {
+            outline: none;
+            border-color: var(--primary-color);
+            box-shadow: 0 0 0 3px rgba(109, 40, 217, 0.1);
+        }
+
+        .juliet-form-group small {
+            display: block;
+            margin-top: 0.25rem;
+            color: #6b7280;
+            font-size: 0.85rem;
+        }
+
+        .juliet-terms-checkbox {
+            display: flex;
+            align-items: center;
+            margin: 1.5rem 0;
+        }
+
+        .juliet-terms-checkbox input {
+            width: auto;
+            margin-right: 0.5rem;
+        }
+
+        .juliet-terms-checkbox label {
+            margin-bottom: 0;
+            font-weight: normal;
+        }
+
+        .juliet-terms-checkbox a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .juliet-terms-checkbox a:hover {
+            text-decoration: underline;
+        }
+
+        .juliet-continue-button {
+            width: 100%;
+            padding: 0.75rem;
+            background-color: var(--primary-color);
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+
+        .juliet-continue-button:hover {
+            background-color: var(--primary-dark);
+        }
+
+        .juliet-login-link {
+            text-align: center;
+            margin-top: 1.5rem;
+        }
+
+        .juliet-login-link a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        .juliet-login-link a:hover {
+            text-decoration: underline;
+        }
+
+        .juliet-alert {
+            padding: 0.75rem 1rem;
+            margin-bottom: 1.5rem;
+            border-radius: 5px;
+            font-size: 0.9rem;
+        }
+
+        .juliet-alert-error {
+            background-color: #fee2e2;
+            color: var(--error-color);
+            border-left: 4px solid var(--error-color);
+        }
+
+        .juliet-password-strength {
+            margin-top: 0.5rem;
+            font-size: 0.85rem;
+        }
+
+        .juliet-password-strength span {
+            display: inline-block;
+            width: 20%;
+            height: 4px;
+            background-color: #e5e7eb;
+            margin-right: 0.25rem;
+            border-radius: 2px;
+        }
+
+        .juliet-password-strength span.active {
+            background-color: var(--primary-color);
+        }
+
+        .juliet-input-with-icon {
+            position: relative;
+        }
+
+        .juliet-input-with-icon input {
+            padding-left: 2.5rem;
+        }
+
+        .juliet-input-with-icon i {
+            position: absolute;
+            left: 0.75rem;
+            top: 50%;
+            transform: translateY(-50%);
+            color: #6b7280;
+        }
+
+        @media (max-width: 600px) {
+            .juliet-container {
+                margin: 1rem;
+                padding: 1.5rem;
+            }
+        }

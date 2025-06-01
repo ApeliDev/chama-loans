@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.6;
+    color: #333;
+    background-color: #f4f4f9;
+}
+
+.julietakoth-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.julietakoth-header {
+    background-color: #3b5998;
+    color: #fff;
+    padding: 1rem 0;
+}
+
+.julietakoth-header .julietakoth-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.julietakoth-header h1 {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.julietakoth-header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+}
+
+.julietakoth-header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.julietakoth-header nav ul li a:hover {
+    color: #ffcc00;
+}
+
+.julietakoth-main {
+    padding: 2rem 0;
+}
+
+.julietakoth-main h2 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #3b5998;
+    margin-bottom: 1rem;
+}
+
+.julietakoth-main p {
+    text-align: center;
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.julietakoth-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1.5rem 0;
+    text-align: center;
+}
+
+.julietakoth-footer p {
+    margin: 0.5rem 0;
+}
+
+.julietakoth-footer a {
+    color: #ffcc00;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.julietakoth-footer a:hover {
+    color: #3b5998;
+}

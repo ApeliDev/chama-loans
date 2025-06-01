@@ -1,0 +1,84 @@
+
+.loan-application-container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 40px;
+    color: #333;
+    background-color: #f9f9f9;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.loan-application-container h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 15px;
+    color: #4A90E2;
+    font-weight: bold;
+}
+
+.loan-application-container p {
+    font-size: 1.1em;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #555;
+}
+
+
+.loan-application-form {
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    max-height: 500px;
+    overflow-y: auto;
+}
+
+.loan-application-form label {
+    font-size: 1em;
+    color: #333;
+    margin-bottom: 5px;
+    display: block;
+    font-weight: bold;
+}
+
+.loan-application-form input,
+.loan-application-form select,
+.loan-application-form textarea {
+    padding: 12px;
+    font-size: 1em;
+    width: 100%;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+    background-color: #f9f9f9;
+}
+
+.loan-application-form input:focus,
+.loan-application-form select:focus,
+.loan-application-form textarea:focus {
+    border-color: #4A90E2;
+    outline: none;
+    background-color: #fff;
+}
+
+.loan-application-form textarea {
+    resize: vertical;
+}
+
+.loan-application-form button {
+    padding: 15px 20px;
+    font-size: 1.1em;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.loan-application-form button:hover {
+    background-color: #45a049;
+}

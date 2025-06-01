@@ -1,0 +1,81 @@
+.juliet-akoth-dashboard-container {
+    margin-left: 260px;
+    padding: 80px 20px;
+    max-width: 1200px; 
+    margin: auto; 
+    height: 100%;
+    overflow-y: auto;
+}
+
+.juliet-akoth-welcome-section h2 {
+    font-size: 2.2em;
+    color: #4CAF50;
+    text-align: center;
+    margin-bottom: 20px;
+    visibility: visible;
+}
+
+.juliet-akoth-welcome-section p {
+    font-size: 1.2em;
+    text-align: center;
+    color: #555;
+}
+
+
+.juliet-akoth-dashboard-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-around;
+    padding-bottom: 20px; 
+}
+
+
+.juliet-akoth-card {
+    background-color: #fff;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+    width: calc(25% - 30px); 
+    padding: 25px;
+    border-radius: 10px;
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.juliet-akoth-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+.juliet-akoth-card h3 {
+    font-size: 1.6em;
+    color: #4CAF50;
+    margin-bottom: 15px;
+}
+
+.juliet-akoth-card p {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.juliet-akoth-card i {
+    font-size: 3.5em;
+    color: #4CAF50;
+    margin-bottom: 10px;
+}
+
+.juliet-akoth-btn-primary {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+.juliet-akoth-btn-primary:hover {
+    background-color: #45a049;
+}
